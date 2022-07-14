@@ -185,18 +185,18 @@ header nav .container .collapse form button:hover{
     background-color: rgb(34, 30, 30);
         
 }
-#marca .container{
+#marca .container-fluid{
     padding: 30px;
         
 }
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner a{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner a{
     float: left;
     display: flex;
     width: 150px;
     height: 150px;
     color: white;
     text-decoration: none;
-    margin-left: 38px;
+    margin-left: 58px;
     text-indent: -3000px;
   
     
@@ -206,48 +206,48 @@ header nav .container .collapse form button:hover{
     background-size: cover;
 }
 
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m1{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner .m1{
     background-image: url(m1.png);
     
 }
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m2{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner .m2{
     background-image: url(m2.png);
     
 }
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m3{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner .m3{
     background-image: url(m3.png);
     
 }
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m4{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner .m4{
     background-image: url(m4.png);
     
 }
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m5{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner .m5{
     background-image: url(m5.png);
   
 }
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m6{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner .m6{
     background-image: url(m6.png);
     
 }
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m7{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner .m7{
     background-image: url(m7.png);
     
 }
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m8{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner .m8{
     background-image: url(m8.png);
     
 }
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m9{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner .m9{
     background-image: url(m9.png);
    
 }
-#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m10{
+#marca .container-fluid .row .col-11 #carouselExampleIndicators .carousel-inner .m10{
     background-image: url(m10.png);
     
 }
 .carousel-control-next, .carousel-control-prev {
-    width: 3%;
+    width: 5%;
 }
 .marcador{
     border: 2px solid blue;
