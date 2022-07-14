@@ -265,7 +265,7 @@ header nav .container .collapse form button:hover{
     background-size: cover;
     padding-top: 100px;
 }
-#brind .container .row .col-12 h1{
+#brind  .row .col-12 h1{
     font-family: 'Bebas Neue', cursive;
     color: rgb(138, 60, 90);
     text-align: center;
