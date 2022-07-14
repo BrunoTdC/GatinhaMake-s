@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@keyframes seta {
+
+from{
+    padding-top: 0px;
+}
+
+to{
+    padding-top: 10px;
+}
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.wd {
+  width: 780px;
+}
+.pad {
+    padding-left: 60px;
+}
+.fon-nav {
+    font-weight: 600;
+}
+header .bg-color{
+    background-color: rgb(245, 164, 188);
+}
+header nav .container .collapse form .cor{
+    background-color: rgb(255, 188, 207);
+    border: 0;
+    color: white;
+}
+header nav .container .logo{
+    background-image: url(logo2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;  
+    text-indent: -3000px;
+}
+header nav .container .logo:hover{
+    background-image: url(logo.png);
+    transition: 0.5s;
+}
+
+header nav .container .collapse form .cor::placeholder{
+    color: rgba(255, 255, 255, 0.753);
+
+}
+header nav .container .collapse form button:hover{
+    color: rgb(245, 164, 188);
+    transition: 0.4s;
+}
+#banner{
+    background-image: url(FUNDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px ;
+}
+#banner .container{
+    padding-top: 100px;
+   
+}
+#banner .container .row .col h1{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: rgb(197, 4, 62);
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 0;
+    height: 100px;
+}
+#banner .container .row .col p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16.5px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+    
+}
+#banner .container .row .col-6 .btn1{
+    background-color: rgb(197, 4, 62);
+    color: white;
+    border: 5px solid rgb(252, 172, 172);
+    padding: 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 40px 20px;
+    font-weight: 800;
+    font-size: 20px;
+    
+    
+}
+#banner .container .row .col-6 .btn1:hover{
+    background-color: rgb(255, 255, 255); 
+    color: rgb(197, 4, 62);
+    transition: 0.5s;  
+    
+}
+#banner .container .row .col-6 .btn2{
+    background-color: rgb(255, 255, 255); 
+    color: rgb(197, 4, 62);
+    border: 5px solid rgb(197, 4, 62);
+    padding: 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 40px 20px;
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+#banner .container .row .col-6 .btn2:hover{
+    background-color:rgb(197, 4, 62);  
+    color: white;
+    transition: 0.5s; 
+    
+}
+#banner .container .row .col-6 h1{
+    color: rgb(41, 40, 46);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 160px;
+    margin-top: 40px;
+    padding: 0;
+    height: 130px;
+
+    
+}
+#banner .container .row .col-6 p{
+    color: rgb(41, 40, 46);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+    margin: 0;
+   
+
+    
+}
+#redes{
+    background-color: rgb(197, 4, 62);
+    width: 50px;
+    height: 190px;
+    border-radius: 0 20px 20px 0;
+    position: fixed;
+    bottom: 30%;
+}
+#redes i{
+    color: white;
+    padding-top: 20px;
+    padding-left: 6px;
+    
+}
+#banner .container .row .col-6 i{
+    color:rgb(197, 4, 62);
+    animation-name: seta;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    padding-bottom: 15px;
+      
+}
+#banner .container .row .col-6 h3{
+    font-weight: 900;
+    color: rgb(53, 40, 43);
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 30px;
+     
+     
+ }
+#marca{
+    background-color: rgb(34, 30, 30);
+        
+}
+#marca .container{
+    padding: 30px;
+        
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner a{
+    float: left;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-decoration: none;
+    margin-left: 38px;
+    text-indent: -3000px;
+    
+}
+.back{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m1{
+    background-image: url(m1.png);
+    
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m2{
+    background-image: url(m2.png);
+    
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m3{
+    background-image: url(m3.png);
+    
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m4{
+    background-image: url(m4.png);
+    
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m5{
+    background-image: url(m5.png);
+  
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m6{
+    background-image: url(m6.png);
+    
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m7{
+    background-image: url(m7.png);
+    
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m8{
+    background-image: url(m8.png);
+    
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m9{
+    background-image: url(m9.png);
+   
+}
+#marca .container .row .col-11 #carouselExampleIndicators .carousel-inner .m10{
+    background-image: url(m10.png);
+    
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 3%;
+}
+.marcador{
+    border: 2px solid blue;
+}
